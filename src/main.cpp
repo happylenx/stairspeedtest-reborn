@@ -1173,7 +1173,7 @@ int main(int argc, char* argv[])
     //stop socket library before exit
     WSACleanup();
 #else
-    std::cout<<std::endl;
+    # std::cout<<std::endl;
 #endif // _WIN32
     return 0;
 }
